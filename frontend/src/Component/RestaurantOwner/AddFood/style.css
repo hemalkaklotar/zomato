@@ -1,0 +1,49 @@
+.add-restaurant {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-white-100);
+}
+.position-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  padding: 1.3rem 1rem;
+  box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px !important;
+  background-color: var(--color-white-100);
+}
+
+.add-restaurant input:hover,
+.add-restaurant input:focus {
+  border: 0.02rem solid var(--color-main-50) !important;
+  box-shadow: var(--shadow-light) 0px 0.8rem 2.4rem !important;
+}
+.add-restaurant .multiSelectBox input:hover,
+.add-restaurant .multiSelectBox input:focus,
+.add-restaurant select:hover,
+.add-restaurant select:focus {
+  border: none !important;
+  box-shadow: var(--shadow-light) 0px 0.8rem 2.4rem !important;
+}
+.add-restaurant input:checked {
+  background-color: var(--text-main);
+  border: 2px solid var(--text-main);
+  outline: none !important;
+}
+.btn-add-food {
+  border: 1px solid var(--color-main-50) !important;
+}
+.btn-add-food:hover {
+  background-color: var(--color-main) !important;
+  color: white !important;
+}
+.add-image {
+  position: relative;
+  padding: 0 !important;
+}
+.btn-uploadImage {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  border: 2px solid var(--color-main-50) !important;
+}

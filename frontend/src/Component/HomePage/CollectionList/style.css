@@ -1,0 +1,50 @@
+.section-heading {
+  color: var(--text-dark-900);
+  margin-bottom: 6px;
+  font-size: 2.1rem;
+}
+.section-collection .section-subheading {
+  color: var(--text-dark-400);
+}
+
+.section-explore-more {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.section-collection-lists a .img-box {
+  width: 100%;
+  height: 34vh;
+  max-height: 310px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-collection-lists a .img-box img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.section-collection-lists a .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 45%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.section-collection-lists a .overlay p:nth-child(1) {
+  color: var(--text-light);
+}
+
+.section-collection-lists a .overlay p:nth-child(2) {
+  color: var(--text-light);
+}

@@ -1,0 +1,24 @@
+.otp-field {
+  width: 80% !important;
+  max-width: 250px;
+  margin:auto;
+  border: none !important;
+  height: 42px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-main-200) 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 40px 2px;
+  background-repeat: repeat-x;
+  padding: 20px 0 40px 26px !important;
+  border: 1px solid red;
+  letter-spacing: 1.78rem;
+
+
+}
+
+.otp-field:focus{
+       border: none !important;
+}

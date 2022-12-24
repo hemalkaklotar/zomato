@@ -1,0 +1,9 @@
+a {
+  text-decoration: none!important;
+  color: var(--text-dark-300)!important;
+  font-size: 15px !important;
+}
+.breadcrumb .active {
+  font-size: 15px !important;
+  color: var(--text-dark-100) !important;
+}

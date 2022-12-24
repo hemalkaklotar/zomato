@@ -1,0 +1,92 @@
+.search-recipe-area {
+  margin: auto;
+}
+.search-recipe-area form .form-group {
+  position: relative;
+}
+.search-recipe-area form .form-group .line {
+  position: absolute;
+  height: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  border-radius: 1px;
+  background-color: rgb(194, 194, 194);
+}
+
+.search-recipe-area form .form-group select,
+.search-recipe-area form .form-group input {
+  height: 55px;
+}
+
+.search-recipe-area form .form-group select {
+  padding-left: 45px;
+  color: var(--text-dark-gray-200);
+}
+
+.search-recipe-area form .form-group .location-logo,
+.search-recipe-area form .form-group .search-logo {
+  position: absolute;
+  left: 12px;
+  top: 43%;
+  font-size: 22px;
+  transform: translateY(-43%);
+  color: var(--icon-main);
+}
+
+.search-recipe-area form .form-group .search-logo {
+  color: var(--icon-light-gray);
+}
+
+.search-recipe-area form .form-group .arrow-down {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  font-size: 18px;
+  transform: translateY(-50%);
+  color: var(--icon-light-gray);
+}
+.header-search input {
+  border-radius: 0 0.4rem 0.4rem 0 !important;
+  border-left: none;
+}
+.header-search select {
+  border-radius: 0.4rem 0 0 0.4rem !important;
+  border-right: none;
+}
+.search-recipe-area form .form-group input {
+  padding-left: 45px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* .search-recipe-area form {
+    margin-bottom: 9.5rem;
+  } */
+
+  .search-recipe-area form .form-group select {
+    width: 225px;
+  }
+
+  .search-recipe-area form .form-group input {
+    width: 520px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .search-recipe-area form .form-group select {
+    max-width: 255px;
+  }
+
+  .search-recipe-area form .form-group input {
+    min-width: 530px;
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .search-recipe-area form .form-group select {
+    border-radius: 0.4rem !important;
+  }
+  .search-recipe-area form .form-group input {
+    border-radius: 0.4rem !important;
+  }
+}

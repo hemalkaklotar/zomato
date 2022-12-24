@@ -1,0 +1,32 @@
+.slider {
+  background-color: var(--color-white-100);
+}
+.heading {
+  color: var(--text-dark-700);
+  letter-spacing: 0.04rem;
+}
+
+.top-brands {
+  margin: 0 20px;
+}
+
+.top-brands-cover {
+  height: 150px;
+  width: 150px;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-shadow: 0px 0.8rem 1.4rem var(--color-white-200);
+  border: 0.5px solid var(--color-white-300);
+}
+@media only screen and (max-width: 576px) {
+  .top-brands-cover {
+    height: 100px;
+    width: 100px;
+  }
+}
+.top-brands-image {
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

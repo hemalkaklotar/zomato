@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif !important;
+}
+
+/* code {
+ font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Overpass', sans-serif;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=Source+Sans+3:ital,wght@1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --icon-main: rgb(226, 60, 74);
+  --color-main-50: rgb(239, 79, 95);
+  --color-main: rgb(224, 53, 70);
+  --color-main-200: rgb(224, 52, 55);
+  --icon-light: rgba(255, 255, 255, 0.8);
+  --icon-light-gray: rgba(133, 132, 132, 0.8);
+  --text-light: rgb(245, 245, 245);
+  --text-main: rgba(226, 60, 74, 0.959);
+  --text-dark-900: rgb(8, 8, 8);
+  --text-dark-800: rgb(16, 16, 16);
+  --text-dark-700: rgb(23, 23, 23);
+  --text-dark-600: rgb(31, 31, 31);
+  --text-dark-500: rgb(39, 39, 39);
+  --text-dark-400: rgb(82, 82, 82);
+  --text-dark-300: rgb(125, 125, 125);
+  --text-dark-200: rgb(169, 169, 169);
+  --text-dark-100: rgb(212, 212, 212);
+  --color-white-100: rgb(250, 250, 250);
+  --color-white-200: rgb(226, 226, 226);
+  --color-white-300: rgb(207, 207, 207);
+  --color-white-400: rgb(198, 198, 198);
+  --color-white-500: rgb(166, 166, 166);
+  --color-white-600: rgb(149, 149, 149);
+  --color-white-700: rgb(124, 124, 124);
+  --color-white-800: rgb(99, 99, 99);
+  --color-white-900: rgb(83, 83, 83);
+  --color-white-1000: rgb(50, 50, 50);
+  --color-white-1100: rgb(41, 41, 41);
+  --shadow-light: rgba(185, 185, 185, 0.15);
+}
+.container-xxl {
+  max-width: 1100px !important ;
+}
+input:focus {
+  border: 1px solid var(--color-white-300) !important;
+  box-shadow: none !important;
+}
+
+input:focus-visible {
+  border: 1px solid var(--color-white-300) !important;
+  box-shadow: none !important;
+  outline-color: none !important;
+}
+.btn-primary {
+  border: 1px solid var(--color-main) !important;
+  background-color: var(--color-main) !important;
+  min-width: 100px !important;
+  height: 2.7rem;
+}
+.btn-primary:hover {
+  background-color: var(--color-main-50) !important;
+}
+.btn-plain {
+  border: none !important;
+  background-color: transparent !important;
+  min-width: 100px !important;
+  height: 2.7rem;
+  color: var(--text-main) !important;
+}
+.btn-plain:hover {
+  background-color: var(--icon-light) !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  background-color: white !important;
+  color: var(--color-white-800) !important;
+  content: "<" !important;
+}
+.slick-next:before {
+  content: ">" !important;
+}
